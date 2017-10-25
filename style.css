@@ -1,51 +1,61 @@
 body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
     background-color: #777;
+    color: #777;
 }
-header{
-    position: relative;
-    padding: 2em;
-    margin-bottom: 2em;
-    margin-right: 6em;
-    margin-left: 6em;
+.content{
+    padding: 30px;
+    margin-bottom: 10px;
+    margin-right: 6px;
+    margin-left: 6px;
     text-align: center;
     background-color: #ebebeb;
+    clear: both;
+}
+.wrapper{
+    overflow: auto;
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 6px;
+    margin-right: 6px;
+    clear: both;
+    
 }
 nav{
-    padding: 2em;
-    margin-bottom: 2em;
-    margin-right: 6em;
-    margin-left: 6em;
-    text-align: center;
-    background-color: #ebebeb;
 }
 section{
+    padding: 5px;
     background-color: #ebebeb;
-    width: 950px;
-    margin-bottom: 30px;
-    margin-left: 6em;
-    margin-right: 40em;
-    margin-color:red;
-    padding: 30px;
-    text-align: center;
-
+    float: left;
+    width: 495px;
 }
 article{
-    position: relative;
-    right: 40px;
-    width: 400px;
-
-    margin-left: 1em;
-    margin-right: 1em;
-    margin-bottom: 1em;
+    padding: 10px;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-bottom: 1px;
     background-color:#777;
 }
 h1{
-    background-color: #ebebeb
+    text-align: center;
+    background-color: #ebebeb;
+}
+#pArticle{
+    color: #ebebeb;
+}
+#pP{
+    background-color: #ebebeb;
+}
+aside{
+    height: 208px;
+    width:425px;
+    float: right; 
+    background-color: #ebebeb;
+}
+footer{
 }
 p{
-    background-color: #ebebeb
-}
-aside{ position: relative;
-    width:495; 
-    background-color: #ebebeb;
+    text-align: center;
 }
